@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="phptravel"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="6.562">
+  <properties />
+  
+  
+            <testcase name="travelValidLoging" time="2.763" classname="phptravel" />
+                <testcase name="blankLogingData" time="0.468" classname="phptravel" />
+                <testcase name="invalidLogingData" time="3.331" classname="phptravel" />
+      
+</testsuite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="RegressionTest">
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter" />
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+    </listeners>
+    <test name="phptravel" group-by-instances="true">
+        <groups>
+            <run>
+                <include name="Positive_Secnario"> </include>
+                <include name="Negative_Secnario"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="phptravel"></class>
+        </classes>
+    </test>
+</suite>
